@@ -1,0 +1,93 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    padding: 20px;
+    background-color: #f2f2f2;   
+}
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(220, 20, 60);
+    font-family: Comic Sans MS
+  }
+  
+  input[type="text"],
+  select,
+  input[type="number"],
+  input[type="email"],
+  input[type="tel"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #5fa7f9;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Comic Sans MS
+  }
+  
+  button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Comic Sans MS
+  }
+  
+  button[type="submit"]:hover {
+    background-color:  #fa618d;
+  }
+  h1{
+    text-align: center;
+    font-family: Comic Sans MS
+  }
+  h2{
+    text-align: center;
+    font-family: Comic Sans MS
+  }
+  .popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+  }
+  .open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+  }
+  .popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  .popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+  }
+  .popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+  }
+  

@@ -1,0 +1,64 @@
+form {
+    max-width: 510px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    
+}
+
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+    font-weight: 200;
+    
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 40%;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    
+}
+
+.container {
+    display:block;
+   
+}
+
+.col-25 {
+    flex-basis: 25%;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.col-75 {
+    flex-basis: 75%;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+h2{
+    text-align: center;
+}
+fieldset{
+    border-radius: 15px;
+}

@@ -1,0 +1,91 @@
+/* Bordered form */
+form {
+    border: 30px;
+  }
+  
+  /* Full-width inputs */
+  input {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  input[type=submit]{
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+  }
+  .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+  }
+  .subcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
+  }
+  
+  /* Add a hover effect for buttons */
+  input[type=submit]:hover {
+     background-color: rgb(253, 9, 123);
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+
+  body{
+    background-image: url("morning.jpg");
+    background-size: cover;
+  }
+  .mainform{
+    height: 10%;
+  }
+  h1{
+    font-family: Comic sans;
+    color: #ffc7c3;
+  }
+
+#image-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Travels</title>
+    <link rel="stylesheet" href="TravelLog.css">
+    <link rel="icon" type="image/png" href="GlobalTour.jpg"/>
+</head>
+<body>
+    
+    <br>
+    <div class="mainform" style="border: 2px solid black; border-radius: 20px; width: 30%; margin: auto; height: 540px; background-color:  rgba(255, 255, 255, 0.4);padding: 20px;">
+        <br>
+        <form action="TravelBooking.html">
+            <h1 style="text-align: center;">Global Travels</h1>
+            <div class="imgcontainer">
+            <img src="keralaboating.jpg" alt="boating" class="avatar">
+            </div>
+            <br>
+        
+            <div class="container">
+            <div class="subcont">
+                <label for="name"><b>Username</b></label>
+                <input type="email" placeholder="Enter Username" id="name" name="uname" style="width: 300px;border-radius:50px;">
+                <br>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" style="width: 300px;border-radius:50px;" id="psw">
+            </div>
+            
+            <div class="login"> 
+            <input type="submit" style="width: 100px;border-radius:60px;" class="name" value="LOGIN">
+            </div>
+            </div>
+        </form>
+    </div>
+        <br><br><br>
+        <script>
+            const emailValidator = (email) => {
+     const emailRegex = /^[^\s@]+@[^\s@]+$/;
+    return emailRegex.test(email)}
+   
+    const passwordValidator = () => {
+       const password = document.getElementById("psw")
+       console.log(password);
+     const passwordRegex =
+       /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/;
+     if(!passwordRegex.test(password)){
+       alert("password is invalid")
+     }
+     else{
+       window.location.replace("TravelBooking.html")
+     }
+   };
+   
+   
+       </script>
+</body>
+</html>
